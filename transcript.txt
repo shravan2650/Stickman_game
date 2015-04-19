@@ -1,0 +1,25 @@
+Welcome everyone.
+I am Aditya and i'll be showing you how to setup and run my very own project stickman.
+First of all let me introduce to you my group members Mehul,Shravan and Gopal.
+For running this project we need SDL libraries so first i am going to teach you to install SDL libraries.
+For that you need to go to www.libsdl.org/download-2.0.php.
+Then proceed to development libraries and download SDL2-devel-2.0.3-mingw32.tar.gz file
+which i've already downloaded here.
+Next we require SDL mixer for that we have to go www.libsdl.org/projects/SDL_mixer/ and similarly proceed
+to development libraries and download SDL2_mixer-devel-2.0.0-mingw.tar.gz.
+And we also need SDL image for that we need to go to www.libsdl.org/projects/SDL_image/ and similarly 
+development libraries and download SDL2_mixer-devel-2.0.0-mingw.tar.gz.
+Now you need to extract these tar.gz files into their respective folders.
+Next i'll show u how to set them up in code blocks.
+Go to settings -> compiler -> linker settings and u need to put these linkerers here so just type them out.
+Next go to search directories -> compiler and add them one by one. Use the 64 bit. next the SDL mixer and
+then image.
+Then go to linker and add the libraries. Press OK.
+Next u need to get the main folder of my project which is over here in the form of tar and extract all of 
+its contents into this folder here.
+Open this folder go to source -> SDL and copy all of its contents and paste it here similarly do with images
+and audio.
+Go to code blocks and create a new file and save it in the same destination of this folder.
+next u need to copy all the codes which is over here and then build it.
+Now its ready to run.
+And thats it hope u enjoyed it and thanks for watching this video!!
